@@ -1,6 +1,5 @@
-CXXFLAGS =	-O2 -g -Wall -fmessage-length=0
-TARGET =	calculette
-CXX = g++
+TARGET =	Test
+CXX = clang++ -std=c++11 -stdlib=libc++ -Weverything
 LIBS =
 HEADERS_DIR = .
 OBJS =		$(TARGET).o
